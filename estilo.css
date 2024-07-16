@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+
+
+ul{ 
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 20px;
+    color: darkgoldenrod;
+}    
+li{
+     padding: 15px;
+}
+li a{
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+ nav{
+    text-align: center;
+}
+
+.carousel-item{
+    height: 700px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color:  darkgoldenrod;
+    font-size: 50px;
+    padding: 20px;
+    background-color: black;
+}
+position{ 
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+    font-size: 30px;
+    color: rgb(242, 181, 25);
+}
+a{
+    text-align: center;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+h4{
+    padding: 5px;
+    color: darkgoldenrod;
+}
+h2{
+    color: darkgoldenrod;
+}
+footer{
+    background-color: black;
+    text-align: center;
+}
+.galeria{
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item3 item4 item5"
+    "item6 item7 item8 item9 item10"
+    "item11 item11 item11 item11 item11"
+    "item12 item13 item14 item15 item16"
+    "item17 item18 item19 item20 item21";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto auto auto auto;
+}
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+.item4{grid-area: item4;}
+.item5{grid-area: item5;}
+.item6{grid-area: item6;}
+.item7{grid-area: item7;}
+.item8{grid-area: item8;}
+.item9{grid-area: item9;}
+.item10{grid-area: item10;}
+.item11{grid-area: item11;}
+.item12{grid-area: item12;}
+.item13{grid-area: item13;}
+.item14{grid-area: item14;}
+.item15{grid-area: item15;}
+.item16{grid-area: item16;}
+.item17{grid-area: item17;}
+.item18{grid-area: item18;}
+.item19{grid-area: item19;}
+.item20{grid-area: item20;}
+.item21{grid-area: item21;}
+.img_fluid{width: 100%; height:350px}
+.item{
+    border: 5px solid black;
+    background-size: cover;
+}
+main{text-align: center;
+    background-color: black;
+}
+pCon{
+    font-size: 25px;
+    color: darkorange;
+}
+.val{
+    color: darkgoldenrod;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .logo{display: flex;
+    flex-direction: column;
+    justify-content: center;}
+    position{ 
+        position: absolute;
+        top: 1300px;
+        center;
+        font-size: 30px;
+        color: rgb(242, 181, 25);
+    }
+}
